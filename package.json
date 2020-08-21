@@ -1,0 +1,17 @@
+{
+  "name": "text-manipulate",
+  "version": "1.0.0",
+  "description": "Manipulate string with different operation",
+  "main": "src/index.ts",
+  "scripts": {},
+  "repository": "github:demching/text-manipulate",
+  "keywords": [
+    "text",
+    "string",
+    "manipulate",
+    "scrapper",
+    "mining"
+  ],
+  "author": "Dem Ching",
+  "license": "MIT"
+}
