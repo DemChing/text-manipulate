@@ -39,12 +39,12 @@ Options are used in most of the methods. Below shows all acceptable properties:
 | `connector` | `string` | space | String to join the string array |
 | `empty` | `boolean` | `false` | Accept empty string in the result |
 | `escapeRegexp` | `boolean` | `false` | Escape RegExp special character in string |
-| `locale` | `string | string[] | false` | `false` | Acceptable locale for `toLocaleUpperCase()`/`toLocaleLowerCase()` |
+| `locale` | `string \| string[] \| false` | `false` | Acceptable locale for `toLocaleUpperCase()`/`toLocaleLowerCase()` |
 | `number.ceil` | `boolean` | `false` | Round number to next integer |
 | `number.floor` | `boolean` | `false` | Round number to previous integer |
 | `number.round` | `boolean` | `false` | Round number to integer |
-| `number.format` | `string | RegExp` | N/A` | Number format |
-| `occurance` | `string | string[]` | N/A | String occurance to count |
+| `number.format` | `string \| RegExp` | N/A | Number format |
+| `occurance` | `string \| string[]` | N/A | String occurance to count |
 | `pad.string` | `string` | empty string | Pad string |
 | `pad.end` | `boolean` | `false` | Pad from the end |
 | `pad.count` | `number` | N/A | Pad fixed times |
@@ -52,13 +52,13 @@ Options are used in most of the methods. Below shows all acceptable properties:
 | `preserveCase` | `boolean` | `false` | Preserve upper/lower case in string |
 | `regexpGlobal` | `boolean` | `false` | Add flag `g` (global match) when building RegExp from string |
 | `regexpInsensitive` | `boolean` | `false` | Add flag `i` (case insensitive) when building RegExp from string |
-| `remove` | `string | RegExp | (string | RegExp)[]` | N/A | Remove occurance in string |
+| `remove` | `string \| RegExp \| (string \| RegExp)[]` | N/A | Remove occurance in string |
 | `scrapSource` | `ScrapSource` | N/A | Scrapping setting |
-| `scrapRemains` | `boolean | Object` | N/A | Scrap remaining data |
+| `scrapRemains` | `boolean \| Object` | N/A | Scrap remaining data |
 | `scrapRemains.number` | `boolean` | `false` | Scrap any number in remaining data |
 | `scrapRemains.bracket` | `boolean` | `false` | Scrap any bracket-surrounded string in remaining data |
-| `splitter` | `string | RegExp` | N/A | Split the string with the splitter |
-| `trim` | `boolean | string | RegExp` | whitespace | Trim the string with the target |
+| `splitter` | `string \| RegExp` | N/A | Split the string with the splitter |
+| `trim` | `boolean \| string \| RegExp` | whitespace | Trim the string with the target |
 | `urlSafe` | `boolean` | `false` | URL Safe Base64 (ie `+/` to `-_`) |
 
 ## Support
